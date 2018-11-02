@@ -1,0 +1,1 @@
+﻿Invoke-Command -ComputerName getbssvrexma01.fincage.local {Get-PSDrive c, d, e, f, g} | select PScomputername, Used, Free

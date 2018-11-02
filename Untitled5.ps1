@@ -1,0 +1,2 @@
+﻿$sessionID = ((quser /server getbssvrrds01.fincage.local |Where-Object {$_ -match "sandro.miruashvili"})-split ' +')[3]
+Invoke-RDUserLogoff -HostServer getbssvrrds01.fincage.local -UnifiedSessionID $sessionID

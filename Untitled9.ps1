@@ -1,0 +1,1 @@
+﻿get-service -ComputerName "getbssvrbkp02.fincaint.local"
